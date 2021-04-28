@@ -67,23 +67,5 @@ public class Cinema {
 
 	}
 
-
-	
-	public static <matrix> void cinema (int seats, int row, matrix[]) {
-		System.out.println("Cinema:");
-		System.out.print("  ");
-		for (int i = 1; i < seats + 1; i++) {
-			System.out.print(i + " ");
-		}
-		System.out.println();
-		for (int j = 1; j < row + 1; j++) {
-			System.out.print(j + " ");
-			for (int i = 0; i < seats; i++) {
-				System.out.print(matrix[j - 1][i] + " ");
-			}
-			System.out.println();
-		}
-	}
-
 }
 
