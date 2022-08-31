@@ -28,7 +28,7 @@ files:
         CheckResult test1_checkExit() {
 
             TestedProgram program = new TestedProgram();
-            String output = program.start().trim();
+            String output = program.start().strip();
 
             if (!output.toLowerCase().contains("enter the number of rows")) {
                 return CheckResult.wrong("At the beginning your program should ask for entering the number of rows.\n" +
@@ -149,7 +149,8 @@ files:
             output = program.execute("1");
             checkTakenSeat(output, 7, 8, 2, 4);
 
-            output = program.execute("2\n3\n5\n1");
+            program.execute("2\n3\n5");
+            output = program.execute("1");
             checkTakenSeat(output, 7, 8, 3, 5);
 
             return CheckResult.correct();
@@ -237,8 +238,10 @@ files:
 
                 String errorMessage = "The ";
                 if (i == 1) {
-                    errorMessage += "second ";
+                    errorMessage += "first ";
                 } else if (i == 2) {
+                    errorMessage += "second  ";
+                } else if (i == 3) {
                     errorMessage += "third  ";
                 } else {
                     errorMessage += i + "th ";
@@ -298,8 +301,10 @@ files:
 
                 String errorMessage = "The ";
                 if (i == 1) {
-                    errorMessage += "second ";
+                    errorMessage += "first ";
                 } else if (i == 2) {
+                    errorMessage += "second ";
+                } else if (i == 3) {
                     errorMessage += "third ";
                 } else {
                     errorMessage += i + "th ";
@@ -336,6 +341,9 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/133/stages/712/implement#comment
-status: Failed
-record: -1
+feedback_link: https://hyperskill.org/learn/step/11108#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 04 Aug 2022 15:44:15 UTC
+record: 4

@@ -6,12 +6,19 @@
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="WRAPPED" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Cinema Room Manager/task" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Cinema Room Manager/task/out" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Adding values" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Application as a class" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Get first and last elements" />
@@ -20,6 +27,25 @@
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Theory" />
             <option value="$PROJECT_DIR$/Topics/BigInteger/The smallest value" />
             <option value="$PROJECT_DIR$/Topics/BigInteger/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Comparing objects" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Implement Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Implement compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Implement comparing by additional fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Natural ordering" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Rewrite compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/Value class" />
+            <option value="$PROJECT_DIR$/Topics/Comparable (1)/compareTo" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Account" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Account and its owner" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Book" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Complex numbers" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Geometric cube" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/User" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Calculating factorials" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Division" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers" />
@@ -32,10 +58,37 @@
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Decompose a math function" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Area of a circle" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Mutable geometric shapes" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE with strings" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Code that throws an exception" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Lines that may throw NPE" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Return empty string when argument is null" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Unknown input" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Where NPE may occur" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Where NPE might occur" />
+            <option value="$PROJECT_DIR$/Topics/Objects/Accessing fields" />
             <option value="$PROJECT_DIR$/Topics/Objects/Army" />
             <option value="$PROJECT_DIR$/Topics/Objects/Change identities" />
+            <option value="$PROJECT_DIR$/Topics/Objects/Find reference types" />
+            <option value="$PROJECT_DIR$/Topics/Objects/Immutability" />
+            <option value="$PROJECT_DIR$/Topics/Objects/Null or not" />
             <option value="$PROJECT_DIR$/Topics/Objects/Preparing full name" />
             <option value="$PROJECT_DIR$/Topics/Objects/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Objects/What is my age" />
+            <option value="$PROJECT_DIR$/Topics/Objects/What is the value of a field" />
+            <option value="$PROJECT_DIR$/Topics/Overloading/Print" />
+            <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Code with nulls" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a primitive" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a reference type" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Null syntax" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/The assignment" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/What does a reference type store" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Compression algorithm" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Convert a date" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Create an euphonious word" />
